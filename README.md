@@ -1,6 +1,7 @@
 # Codebase Content Aggregator Script (`show_code_final.sh`)
 
-This Bash script recursively scans a specified directory (or the current directory by default) and aggregates the content of all non-ignored text files into a single output file. It's useful for creating a snapshot of a codebase for review, analysis, or sharing.
+This Bash script recursively scans a specified directory (or the current directory by default) and aggregates the content of all non-ignored text files into a single output file.
+It's useful for creating a snapshot of a codebase to feed to any AI for review or analysis.
 
 ## Features
 
@@ -25,11 +26,11 @@ This Bash script recursively scans a specified directory (or the current directo
 
 ```bash
 # Example: Scan the current directory and save to codebase_dump.txt
-./show_code_final.sh > codebase_dump.txt
+./codebase-to-text.sh > codebase_dump.txt
 
 # Example: Scan a specific directory (../my_project) and save to my_project_code.txt
 # (Make sure to change OUTPUT_FILENAME inside the script to "my_project_code.txt" first!)
-./show_code_final.sh ../my_project > my_project_code.txt
+./codebase-to-text.sh ../my_project > my_project_code.txt
 ```
 
 ## Configuration (Inside the Script)
