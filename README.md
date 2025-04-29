@@ -22,7 +22,7 @@ It's useful for creating a snapshot of a codebase to feed to any AI for review o
 
 1.  **Navigate** to the directory containing the script or provide the path to it.
 2.  **Execute** the script, redirecting its standard output to your desired filename.
-3.  **IMPORTANT:** Ensure the filename you redirect to (`your_output_file.txt` in the example) **exactly matches** the `OUTPUT_FILENAME` variable defined _inside_ the script.
+3.  **IMPORTANT:** Ensure the filename you redirect to (`codebase_dump.txt` in the example) **exactly matches** the `OUTPUT_FILENAME` variable defined _inside_ the script.
 
 ```bash
 # Example: Scan the current directory and save to codebase_dump.txt

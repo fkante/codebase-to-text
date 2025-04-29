@@ -6,7 +6,7 @@
 # --- Configuration ---
 
 # Directory to scan (default: current directory)
-# Usage: ./codebase-to-text.sh [directory_path] > output_file.txt
+# Usage: ./codebase-to-text.sh [directory_path] > codebase_dump.txt
 TARGET_DIR="${1:-.}"
 
 # --- !! IMPORTANT !! ---
