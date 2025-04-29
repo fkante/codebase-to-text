@@ -1,4 +1,4 @@
-# Codebase Content Aggregator Script (`show_code_final.sh`)
+# Codebase Content Aggregator Script (`codebase-to-text.sh`)
 
 This Bash script recursively scans a specified directory (or the current directory by default) and aggregates the content of all non-ignored text files into a single output file.
 It's useful for creating a snapshot of a codebase to feed to any AI for review or analysis.
